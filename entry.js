@@ -1,3 +1,4 @@
 import "./style.css"; // 载入 style.css
+import module from './module';
 document.write('It works.')
-document.write(require('./module.js')) // 添加模块
+document.write(module) // 添加模块
