@@ -3,7 +3,13 @@ import {render} from 'react-dom';
 
 import "./style.css"; // 载入 style.css
 
-render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('root')
+function Title(props) {
+  return <h1>Hello, world!</h1>
+}
+
+function App(props) {
+  return <Title />
+}
+
+render(App(), document.getElementById('root')
 );
