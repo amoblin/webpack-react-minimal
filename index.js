@@ -11,5 +11,4 @@ function App(props) {
   return <Title name="amoblin"/>
 }
 
-render(App(), document.getElementById('root')
-);
+render(App(), document.getElementById('root'));
