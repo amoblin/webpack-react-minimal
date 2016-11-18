@@ -27,5 +27,13 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html',
     }),
-  ]
+  ],
+  babel: {
+    plugins: [
+      ["import", {
+        libraryName: "antd-mobile",
+        style: true
+      }],
+    ],
+  },
 }
