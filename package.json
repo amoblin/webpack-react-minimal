@@ -4,7 +4,7 @@
   "description": "",
   "main": "bundle.js",
   "scripts": {
-    "build": "webpack entry.js bundle.js",
+    "build": "webpack entry.js bundle.js --module-bind 'css=style!css'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
