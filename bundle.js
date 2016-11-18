@@ -1,3 +1,4 @@
+/*! This file is created by amoblin */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
