@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
 
+import { NavBar, Icon } from 'antd-mobile';
+
 import "./style.css"; // 载入 style.css
 
 function Title(props) {
@@ -8,7 +10,15 @@ function Title(props) {
 }
 
 function App(props) {
-  return <Title name="amoblin"/>
+  return (
+    <div>
+      <NavBar leftContent="返回"
+              mode="light"
+              onLeftClick={() => console.log('onLeftClick')}
+              rightContent={[<Icon key="0" type="search" />, <Icon key="1" type="ellipsis" />]}
+      >NavBar</NavBar>
+    </div>
+  );
 }
 
 render(App(), document.getElementById('root'));
