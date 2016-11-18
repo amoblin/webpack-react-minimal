@@ -3,8 +3,6 @@ import {render} from 'react-dom';
 
 import { NavBar, Icon } from 'antd-mobile';
 
-import "./style.css"; // 载入 style.css
-
 function Title(props) {
   return <h1>Hello, {props.name}</h1>
 }
