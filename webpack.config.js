@@ -3,7 +3,7 @@ var webpack = require('webpack')
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './index.js',
+  entry: './src/index.js',
   output: {
     path: path.join(__dirname, './output'),
     filename: 'bundle.js'
@@ -24,7 +24,7 @@ module.exports = {
   plugins: [
     new webpack.BannerPlugin('This file is created by amoblin'),
     new HtmlWebpackPlugin({
-      template: 'index.html',
+      template: './src/index.html',
       filename: './index.html',
     }),
   ]
