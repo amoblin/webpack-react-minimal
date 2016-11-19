@@ -13,7 +13,7 @@ module.exports = {
         test: path.join(__dirname, '.'),
         loader: 'babel-loader',
         query: {
-          presets: ['es2015']
+          presets: ['es2015', 'react']
         }
       },
       {test: /\.css$/, loader: 'style!css'}
