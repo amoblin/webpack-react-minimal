@@ -31,10 +31,13 @@ module.exports = {
   ],
   babel: {
     plugins: [
-      ["import", {
+      ["import", [{
         libraryName: "antd-mobile",
         style: true
-      }],
+      },{
+        libraryName: "antd",
+        style: true
+      }]]
     ],
   },
 }

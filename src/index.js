@@ -17,7 +17,7 @@ class App extends Component {
                 onLeftClick={() => console.log('onLeftClick')}
                 rightContent={[<Icon key="0" type="search" />, <Icon key="1" type="ellipsis" />]}
         >NavBar</NavBar>
-        <Button>hello</Button>
+        <Button type="primary">hello</Button>
       </div>
     );
   }
