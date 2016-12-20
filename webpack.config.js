@@ -8,6 +8,11 @@ module.exports = {
     path: path.join(__dirname, './output'),
     filename: 'bundle.js'
   },
+  resolve: {
+    root: path.resolve(__dirname, './src'),
+    extensions: ['', '.js', '.jsx', '.web.js',],
+    alias: { }
+  },
   module: {
     loaders: [
       {
