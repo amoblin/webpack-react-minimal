@@ -4,6 +4,8 @@ import {render} from 'react-dom';
 import { NavBar, Icon } from 'antd-mobile';
 import {Button} from 'antd';
 
+import './index.less';
+
 function Title(props) {
   return <h1>Hello, {props.name}</h1>
 }
